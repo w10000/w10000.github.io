@@ -53,17 +53,3 @@ window.onload=dyniframesize;
 </script>
 
 <iframe src="https://www.23004.cn/?w10000" frameborder="0" scrolling="no" id="blog" sandbox="allow-same-origin"></iframe>
-
-<script type="text/javascript">
-function reinitIframe(){
-var iframe = document.getElementById("test");
-try{
-var bHeight = iframe.contentWindow.document.body.scrollHeight;
-var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
-var height = Math.max(bHeight, dHeight);
-iframe.height = height;
-console.log(height);
-}catch (ex){}
-}
-window.setInterval("reinitIframe()", 200);
-</script>

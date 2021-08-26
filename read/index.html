@@ -1,5 +1,10 @@
 <!-- <iframe align="center" width="100%" height="100%" src=https://www.23004.cn/?w10000"  frameborder="no" border="1" marginwidth="1" marginheight="1" scrolling="no"></iframe> -->
-<style media="screen,print">
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="utf-8" />
+	<title>Iframe height demo</title>
+	<style media="screen,print">
 	#body {
 		width:70em;
 		max-width:100%;
@@ -50,6 +55,19 @@ else if (window.attachEvent)
 window.attachEvent("onload", dyniframesize); 
 else 
 window.onload=dyniframesize; 
-</script>
-
-<iframe src="https://www.23004.cn/?w10000" frameborder="0" scrolling="no" id="blog" sandbox="allow-same-origin"></iframe>
+</script> 
+</head>
+<body>
+	<div id="body">
+		<h1>Iframe height demo</h1>
+		<h2><code>iframe</code> <strong>1</strong></h2>
+		<iframe src="https://w10000.github.io/read/"></iframe>
+		<h2><code>iframe</code> <strong>2</strong></h2>
+		<iframe src="https://w10000.github.io/read/" frameborder="0" scrolling="no" id="test"></iframe>
+		<h2><code>iframe</code> <strong>3</strong></h2>
+		<iframe src="https://w10000.github.io/read/" frameborder="0" scrolling="no" id="blog" sandbox="allow-same-origin"></iframe>
+		<div id="labfooter">
+</div>
+	</div>
+</body>
+</html>
